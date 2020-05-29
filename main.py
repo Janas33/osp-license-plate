@@ -2,8 +2,6 @@ def find_plate(image_path):
     import cv2
     import numpy as np
 
-    #image_path = "C:/Users/Krystian/Desktop/osp_test/tab2.jpg"
-
     image = cv2.imread(image_path)
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
@@ -36,7 +34,7 @@ def find_plate(image_path):
             plate = image[y:y+h, x:x+w]
             break
 
-    #cv2.imwrite("plate.png", plate)
+    cv2.imwrite("plate.png", plate)
     #labret = np.array([x, y, w, h])
     a=234
     b=345
@@ -44,11 +42,15 @@ def find_plate(image_path):
     d=745
     labret = [a, b, c, d]
     #labret = [x, y, w, h]
-    return labret
+    print("siema")
+    return None
 
 
-image_path = "C:/Users/Krystian/Desktop/osp_test/tab2.jpg"
-
-lista = []
-lista = (find_plate(image_path))
-print(lista)
+import sys
+find_plate(sys.argv[1])
+'''
+import cv2
+#image_path = "C:/Users/Krystian/Desktop/osp_test/tab2.jpg"
+image_path = "C:/Users/Krystian/Downloads/tab_test.jpg"
+find_plate(image_path)
+'''
