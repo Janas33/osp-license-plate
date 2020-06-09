@@ -40,17 +40,18 @@ def find_plate(image_path):
     b=345
     c=435
     d=745
-    labret = [a, b, c, d]
+    #labret = [a, b, c, d]
     #labret = [x, y, w, h]
-    print("siema")
-    return None
+    labret = [x, y, x+w, y+h]
+    labret = np.array(labret)
+    print(labret)
+    return labret
 
 
-import sys
-find_plate(sys.argv[1])
-'''
+#import sys
+#find_plate(sys.argv[1])
+
 import cv2
 #image_path = "C:/Users/Krystian/Desktop/osp_test/tab2.jpg"
-image_path = "C:/Users/Krystian/Downloads/tab_test.jpg"
+image_path = "C:/Users/Krystian/PycharmProjects/OSP_license_plate/tab_test.jpg"
 find_plate(image_path)
-'''
