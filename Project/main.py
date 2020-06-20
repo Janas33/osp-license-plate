@@ -45,7 +45,7 @@ def find_plate(image_path):
 #import sys
 #find_plate(sys.argv[1])
 
-import cv2
+#import cv2
 #image_path = "C:/Users/Krystian/Desktop/osp_test/tab2.jpg"
 #image_path = "C:/Users/Krystian/PycharmProjects/OSP_license_plate/tab_test.jpg"
 #image_path = "C:/Users/Krystian/PycharmProjects/OSP_license_plate/tablica9.jpg"
