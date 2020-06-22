@@ -1,0 +1,7 @@
+-Czy kontrolki z SubVI zostają w System czy zmienić na Silver? Jak je zmienić?
+-Obsługa błedów
+-Dokumentacja
+-Stworzyć min. 2 Use Cases
+-Nie mam pojęcia dlaczego za każdym razem jak właczam na nowo Main.vi to jest tam już jedna tablica, a powinnien być tam obrazek który wgrałem (działa dopiero jak kliknę przycisk Clear) ten dziwny obrazek wrzuca mi się cały czas w Data:Initialize zamiast obrazka "default" czyli tej grafiki. -> dodałem że Macro Initialize od razu włącza Data:Clear, rozwiązanie trochę pośrednie
+-Dorobić zapis pliku, wycinek tablicy i odczytane dane
+-Pozbyć się  znaków zapytania z Tabelki z wynikami
